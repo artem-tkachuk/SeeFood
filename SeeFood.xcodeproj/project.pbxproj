@@ -13,6 +13,7 @@
 		BF59CDCC24DCFADB00792ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF59CDCA24DCFADB00792ECF /* Main.storyboard */; };
 		BF59CDCE24DCFADC00792ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF59CDCD24DCFADC00792ECF /* Assets.xcassets */; };
 		BF59CDD124DCFADC00792ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF59CDCF24DCFADC00792ECF /* LaunchScreen.storyboard */; };
+		BF59CDD924DCFB5200792ECF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF59CDD824DCFB5200792ECF /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF59CDCD24DCFADC00792ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF59CDD024DCFADC00792ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF59CDD224DCFADC00792ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF59CDD824DCFB5200792ECF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 				BF59CDC424DCFADB00792ECF /* AppDelegate.swift */,
 				BF59CDC624DCFADB00792ECF /* SceneDelegate.swift */,
 				BF59CDC824DCFADB00792ECF /* ViewController.swift */,
+				BF59CDD824DCFB5200792ECF /* Inceptionv3.mlmodel */,
 				BF59CDCA24DCFADB00792ECF /* Main.storyboard */,
-				BF59CDCD24DCFADC00792ECF /* Assets.xcassets */,
 				BF59CDCF24DCFADC00792ECF /* LaunchScreen.storyboard */,
+				BF59CDCD24DCFADC00792ECF /* Assets.xcassets */,
 				BF59CDD224DCFADC00792ECF /* Info.plist */,
 			);
 			path = SeeFood;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF59CDC924DCFADB00792ECF /* ViewController.swift in Sources */,
+				BF59CDD924DCFB5200792ECF /* Inceptionv3.mlmodel in Sources */,
 				BF59CDC524DCFADB00792ECF /* AppDelegate.swift in Sources */,
 				BF59CDC724DCFADB00792ECF /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 352VQ53963;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 352VQ53963;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
